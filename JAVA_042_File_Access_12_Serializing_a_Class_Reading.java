@@ -43,7 +43,6 @@ public static Monster Godzilla;
                   System.out.println("ATK: " + M_ATK);
                   System.out.println("DEF: " + M_DEF);
               }
-             
        }
        
 //-----------------------------------------------------------------------------------       
@@ -108,7 +107,7 @@ public static Monster Godzilla;
                       //Instantiate a Monster object to contain data
                       Godzilla = new Monster();
                       
-                      //Load data members up Monster object with values from file
+                      //Load data members into Monster object with values from file
                       Godzilla.M_Name = MON_NAME;
                       Godzilla.M_Class = MON_CLASS ;
                       Godzilla.M_Health = Integer.parseInt(MON_HEALTH);
@@ -119,9 +118,6 @@ public static Monster Godzilla;
                    {
                        System.out.println("\nSorry, but that was the incorrect password. Access denied.");
                    }
-                   
-                   //Serialization: Reading Moster object from file
-
             }
            
             catch (IOException e)
